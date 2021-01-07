@@ -11,7 +11,7 @@ Aim: create a sample application where you can showcase back and front end skill
 
 
 ## The challenge
-Given a new delimited json file (in this repo) containing a job url and a few other attributes, you need to load this in the database at the run time in table _table_processed_. The table will have all the schema needed from the json file. You can only import the following fields: `['job_url', 'job_description', 'practice_name', 'job_title', 'job_type_id', 'pt_type','weekdays',  'experience', 'contact_email']`
+Given a new delimited json file (in this repo) containing a job url and a few other attributes, you need to load this in the database at the run time in table _table_processed_. The table will have all the schema needed from the json file. If you prefer, you can only import the following fields: `['job_url', 'job_description', 'practice_name', 'job_title', 'job_type_id', 'pt_type','weekdays',  'experience', 'contact_email']`
 
 - On the left hand side of the app, display the content of the url as you see it on the webpage. This is meant to look like a user sees it on the browser.   
 - On the right hand side of the app, you need to display the other attributes found in the json file in a box element ('weekdays' field needs to list all nested fields). These are meant to be visually checked on the left hand side by the user and validated if the values are correct. The user can edit the field values and on the click of it, the text inside the box will be highlighted on the left hand side (similar to as words are highlighted when you search in the browser). When the user clicks outside the box, text on the left will not be highlighted anymore.    
