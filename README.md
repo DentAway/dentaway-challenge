@@ -7,7 +7,7 @@ Aim: create a sample application where you can showcase back and front end skill
 - Back end: PHP Laravel - create back end API to serve front end
 - Database: MySQL or PostgreSQL 
 - Deployment: Docker and docker-compose 
-- Use version control of preference with the necessary documentation (overview, setup, run etc.), [atomic commits](https://dev.to/cbillowes/why-i-create-atomic-commits-in-git-kfi) and tags. You need to use a few tags and / or releases from 0.1 to 1.0.0 -  You can decide how you want to split the project, but these need to make sense. Tag 1.0.0 will be the final version with front and back end and all dependencies packaged in Docker images. 
+- Use version control of preference with the necessary documentation (overview, setup, run etc.), [atomic commits](https://dev.to/cbillowes/why-i-create-atomic-commits-in-git-kfi) and tags. You need to use a few tags and / or releases from 0.1 to 1.0.0 -  You can decide how you want to split the project, but these need to make sense. Tag 1.0.0 will be the final version with front and back end and all dependencies packaged in Docker file. 
 
 
 ## The challenge
